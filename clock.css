@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(15, 12, 24);
+}
+
+h1{
+    padding: 30px;
+    font-family: Dancing Script;
+    font-size: 150px;
+    color: white;
+    margin-left: 90px;
+}
+
+.box{
+    height: 350px;
+    width: 380px;
+    background:linear-gradient(#C5A412, #C83B17);
+    border-radius: 7px;
+    margin-left: 1050px;
+    margin-top: -190;
+    
+}
+
+.box1{
+    height: 280px;
+    width: 300px;
+    border-radius: 7px;
+    background: linear-gradient(#00a7cc, #072fa4 60%);
+    margin-left: 100px;
+    
+}
+
+.clockk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 15px;
+    width: 1130px;
+    height: 230px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    margin-left: 200px;
+    margin-top: -400px;
+    box-shadow: 2px 2px 8px rgb(27, 26, 26);
+}
+
+.dots{
+    color: white;
+    font-size: 100px;
+}
+
+.PM{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -110px;
+}
+.hours{
+    color: aliceblue;
+    font-size: 100PX;
+    background-color: rgba(255, 255, 255, 0.088);
+    border-radius: 8px;
+    padding: 5;
+    padding-right: 20px;
+    padding-left: 15px;
+    width: 135px;
+    
+}
+
+.minutes{
+
+    color: aliceblue;
+    font-size: 100PX;
+    background-color: rgba(255, 255, 255, 0.088);
+    border-radius: 8px;
+    padding: 5;
+    padding-right: 20px;
+    padding-left: 15px;
+    width: 135px;
+    
+}
+
+.sec{
+    color: rgba(255, 238, 0, 0.855);
+    font-size: 100PX;
+    background-color: rgba(255, 255, 255, 0.088);
+    border-radius: 8px;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 15px;
+    width: 135px;
+}
